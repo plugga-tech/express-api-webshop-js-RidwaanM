@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Anslut till MongoDB
-mongoose.connect('mongodb://localhost:27017/fornamn-efternamn', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost:27017/ridwaan-mohamed', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Definiera schema och modell för produkter
 const productSchema = new mongoose.Schema({
