@@ -1,0 +1,13 @@
+GET http://localhost:5000/products
+
+POST http://localhost:5000/products
+
+
+POST http://localhost:5000/orders
+Content-Type: application/json
+
+{
+  "products": [
+    { "productId": "ID_HÄR", "quantity": 2 }
+  ]
+}
