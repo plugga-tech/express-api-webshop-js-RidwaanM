@@ -2,6 +2,7 @@ GET http://localhost:5000/products
 
 POST http://localhost:5000/products
 
+GET http://localhost:5000/orders
 
 POST http://localhost:5000/orders
 Content-Type: application/json
